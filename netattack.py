@@ -123,7 +123,7 @@ def argument_parser():
 
 def throw_error():
     # invalid arguments handling
-    if not args.deauth and not args.scan and not args.deauthall:
+    if not args.deauth and not args.scan and not args.deauthall and not args.monitor:
         argument_parser().print_usage()
         sys.exit(0)
     if not args.interface and not args.monitor:
@@ -235,7 +235,7 @@ def deauth(args):
     bssid = args.bssid
     client = args.client
     amount = args.amount
-    sleep = 0.5
+    sleep = 0
     endless = False
     if amount == 0:
         endless = True
@@ -321,7 +321,9 @@ def monitor_on():
 # # # # # # # # # # # # # # #
 
 if __name__ == '__main__':
-    print(P+ 'NETATTACK 1.0 by chrizator' +W)
+    print(P+'* * * * * * * * * * * * * * * * * *')
+    print('* N E T A T T A C K  by chrizator *')
+    print('* * * * * * * * * * * * * * * * * *'+W)
     
     args = argument_parser().parse_args()
     APs = {}
