@@ -72,5 +72,17 @@ This parameter can only be added to ```-scan```. It shows a more detailed output
 ```
 This parameter can only be added to ```-deauth```. It defines a certain amount of packetbursts to send. This can be used for taking down the WiFi for a certain time.
 
+## REQUIREMENTS
+- Python 2.5+ (not Python 3+)
+- Modules:
+  - scapy
+  - argparse
+  - sys
+  - OS
+  - threading
+  - logging
+ - iw(config)
+ - OFC LINUX
+
 ## DISCLAIMER AND LICENSE
 THE OWNER AND PRODUCER OF THIS SOFTWARE IS NOT LIABLE FOR ANY DAMAGE OR ANY LAW VIOLATIONS CAUSED BY THE SOFTWARE.
