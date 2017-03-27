@@ -365,5 +365,3 @@ if __name__ == '__main__':
 
         sniff(iface=iface, prn=pckt_handler, store=0, timeout=13)
         deauth_all()
-
-        print(hop_t.isAlive())
