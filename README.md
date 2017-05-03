@@ -1,6 +1,8 @@
 # NETATTACK
 The netattack.py is a python script that allows you to scan your local area for WiFi Networks and perform deauthentification attacks. The effectiveness and power of this script highly depends on your wireless card.
 
+## NETATTACK 2 RELEASED 
+https://github.com/chrizator/netattack2/
 ## USAGE
 
 ### EASY
